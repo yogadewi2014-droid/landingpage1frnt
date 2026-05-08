@@ -160,11 +160,12 @@ export default function Dashboard() {
               }
               className="mb-4 w-full rounded-xl border border-white/10 bg-black/30 px-4 py-3 text-white outline-none focus:border-cyan-400"
             >
-              <option value="office">Office / Bisnis</option>
-              <option value="restaurant">Restaurant</option>
-              <option value="product">Produk</option>
-              <option value="affiliate">Affiliate</option>
-              <option value="personal">Personal Branding</option>
+<option value="affiliate">Affiliate TikTok</option>
+<option value="restaurant">Restaurant & Cafe</option>
+<option value="personal">Personal Branding</option>
+<option value="office">Office & Agency</option>
+<option value="product">Produk Digital</option>
+<option value="mini-shop">AI Toko Mini</option>
             </select>
 
             <button
