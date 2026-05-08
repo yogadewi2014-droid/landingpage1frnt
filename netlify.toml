@@ -1,10 +1,3 @@
 [build]
-  command = "pnpm build"
-
-[build.environment]
-  NODE_VERSION = "20"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  base = "web"
+  command = "pnpm install && pnpm build"
